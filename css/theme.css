@@ -1,0 +1,12 @@
+/* font 
+    open sans
+    Lato
+    Pt sans
+*/
+
+:root{
+    --white:#ffffff;
+    --heading: #709dca;
+    --sub_heading: #394b50;
+    --para: #7b7b7b;
+}
