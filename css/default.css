@@ -93,7 +93,9 @@ video{
     font: inherit;
     vertical-align: baseline;
 }
-
+body{
+    overflow-x: hidden;
+}
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -140,7 +142,3 @@ table {
     width: 992px;
     margin: 0 auto;
 } */
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
