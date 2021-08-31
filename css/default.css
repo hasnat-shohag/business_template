@@ -93,7 +93,8 @@ video{
     font: inherit;
     vertical-align: baseline;
 }
-body{
+body,
+html{
     overflow-x: hidden;
 }
 /* HTML5 display-role reset for older browsers */
