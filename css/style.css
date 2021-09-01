@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 #header {
     background-image: url('https://thumbs.dreamstime.com/b/moscow-cathedral-jesus-christ-saviour-22119024.jpg');
     background-repeat: no-repeat;
@@ -172,7 +174,7 @@ header .button a:hover {
     font-size: 13px;
     color: var(--white);
     padding: 17.5px 0px;
-    line-height: 1.6;
+    line-height: 2;
 }
 
 
@@ -484,31 +486,50 @@ header .button a:hover {
 .navbar-nav .nav-link {
     color: rgb(255, 255, 255);
 }
+
 #side-menu .close {
-	font-size: 45px;
-	font-weight: 600;
-	background: transparent;
-	border: none;
-	color: red;
+    font-size: 45px;
+    font-weight: 600;
+    background: transparent;
+    border: none;
+    color: red;
 }
-.container{
+
+.container {
     position: relative;
 }
+
 .sliderButton {
-	position: absolute;
-	cursor: pointer;
-	background: transparent;
-	font-size: 35px;
-	color: #37BAE2;
-	padding: 0px 5px;
-	top: 50%;
-	transform: translateY(9%);
-	background: transparent;
-	border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+    background: transparent;
+    font-size: 35px;
+    color: #ffc155;
+    top: 50%;
+    transform: translateY(9%);
+    background: transparent;
+    
+    border: none;
 }
-#prev{
+
+.sliderButton i {
+    border: 3px solid #5d799c;
+    border-radius: 50%;
+    padding: 0px 8px;
+}
+
+#prev {
     left: 0;
 }
-#next{
+
+#next {
     right: 0;
+}
+
+.footer_logo,
+.navbar-brand {
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    line-height: 22px;
 }

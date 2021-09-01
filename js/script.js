@@ -6,7 +6,6 @@ let bg_img = [
     "url('https://images.pexels.com/photos/3075993/pexels-photo-3075993.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500')"
 ];
 
-
 let ImgSelect = document.querySelector("#header");
 
 let count = 0;
