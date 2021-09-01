@@ -2,6 +2,7 @@
     background-image: url('../images/banner.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     /* padding-bottom: 20px; */
     height: 556px;
 }
@@ -489,4 +490,25 @@ header .button a:hover {
 	background: transparent;
 	border: none;
 	color: red;
+}
+.container{
+    position: relative;
+}
+.sliderButton {
+	position: absolute;
+	cursor: pointer;
+	background: transparent;
+	font-size: 35px;
+	color: #37BAE2;
+	padding: 0px 5px;
+	top: 50%;
+	transform: translateY(9%);
+	background: transparent;
+	border-radius: 50%;
+}
+#prev{
+    left: 0;
+}
+#next{
+    right: 0;
 }
