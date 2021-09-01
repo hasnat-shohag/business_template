@@ -1,5 +1,5 @@
 let bg_img = [
-    "url('../images/banner.jpg",
+    "url('../images/banner.jpg')",
     "url('https://images.pexels.com/photos/4100130/pexels-photo-4100130.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500')",
     "url('https://images.pexels.com/photos/1242764/pexels-photo-1242764.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500')",
     "url('https://images.pexels.com/photos/2923595/pexels-photo-2923595.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500')",
