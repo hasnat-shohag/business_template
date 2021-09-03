@@ -238,20 +238,18 @@ header .button a:hover {
 }
 
 #gallery .nav_item li {
-    padding: 10px 0px;
-}
-
-#gallery .nav_item li a {
-    text-decoration: none;
-    padding: 7px 30px;
-    font-size: 15px;
-}
-
-#gallery .nav_item li a.active,
-#gallery .nav_item li a:focus {
-    background: #709dca;
+    padding: 10px 15px;
+    margin: 5px;
     border-radius: 5px;
-    color: var(--white);
+    cursor: pointer;
+    color: black;
+}
+
+
+
+#gallery .nav_item li.active {
+    background-color: #0281ff;
+    color: white;
 }
 
 #gallery .gallery_img_body {

@@ -56,11 +56,21 @@ $(function () {
         }
     });
 
-    $(".nav_item").on('click', function(e){
-        e.preventDefault();
+    $(".nav_item .button").on('click', function(){
+        $(this).addClass("active").siblings().removeClass("active");
     });
 
-    
+    $(".nav_item .button").on('click', function(){
+        const value = $(this).attr('data-filter');
+        if(value == 'all'){
+            $('.gallery_img_ctrl').show(1000);
+        }
+        else{
+            $('.gallery_img_ctrl').not('.'+value).hide(1000);
+            $('.gallery_img_ctrl').filter('.'+value).show(1000);
+        }
+    })
+
 });
 
 
