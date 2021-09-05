@@ -1,3 +1,31 @@
+const home = document.getElementById('header');
+const services = document.getElementById('offer');
+const about = document.getElementById('about');
+const portfolio = document.getElementById('gallery');
+const testimonial = document.getElementById('testimonial');
+const contact = document.getElementById('footer');
+
+function title_changer(text){
+    document.title = text;
+};
+
+// home.addEventListener('click',function(){
+//     title_changer("Home || Business Name Templete");
+// });
+// services.addEventListener('click',function(){
+//     title_changer("Services || Business Name Templete");
+// });
+// portfolio.addEventListener('click',function(){
+//     title_changer("Portfolio || Business Name Templete");
+// });
+// testimonial.addEventListener('click',function(){
+//     title_changer("Testimonial || Business Name Templete");
+// });
+// contact.addEventListener('click',function(){
+//     title_changer("Contact || Business Name Templete");
+// });
+
+
 let bg_img = [
     "url('https://thumbs.dreamstime.com/b/moscow-cathedral-jesus-christ-saviour-22119024.jpg')",
     "url('https://images.pexels.com/photos/4100130/pexels-photo-4100130.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500')",
